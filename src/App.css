@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    color: rgb(3, 220, 3);
+}
+
+.Card{
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.Card:hover{
+    box-shadow: 10px 10px 20px rgb(3, 220, 3);
+}
+
+.name{
+    border-top: solid;
+    width: 100%;
+}
+
+img{
+    height: 2.5in;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.ScoreBoard{
+    border: solid;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 1.9rem;
+    margin: 50px;
+}
